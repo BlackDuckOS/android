@@ -1,0 +1,21 @@
+BlackDuckOS
+===========
+
+Getting started
+---------------
+
+To get started with Android/BlackDuckOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+
+To initialize your local repository using the BlackDuckOS trees, use a command like this:
+```
+repo init -u https://github.com/BlackDuckOS/android.git -b 14
+```
+Then to sync up:
+```
+repo sync
+```
+Please see the [Grapheneos site](https://grapheneos.org/build#building) for building instructions, by device.
+
+Submitting patches
+------------------
+Patches are always welcome! Please submit your patches via "Pull requests"!
